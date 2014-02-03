@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Weather Reporter</string>
+    <string name="autocomplete_city">City</string>
+    <string name="add">Add</string>
+    <string name="button_current_location">Current City</string>
+    <string name="title_activity_city_weather_history">City Weather History</string>
+	<string name="action_refresh">Refresh</string>
+	<string name="action_delete">Delete</string>
+	<string name="header_history">Weather History (Last 30 days)</string>
+	<string name="header_no_city">No City Added</string>
+	<string name="header_current_city_weather">Current City Weather</string>
+	<string name="source">openweathermap.org</string>
+	<string name="data_not_found">Weather data not found </string>
+	<string name="history_not_found">Weather history not found</string>
+	<string name="no_internet">Internet not available</string>
+	<string name="input_city">Input city to search</string>
+	<string name="city_present">City already present</string>
+	<string name="city_added">City added</string>
+	<string name="city_deleted">: city deleted</string>
+	<string name="searching">Searching....</string>
+	<string name="gps_off">GPS off</string>
+	<string name="gps_disabled_msg">GPS is disabled in your device. Would you like to enable it?</string>
+	<string name="gps_title">GPS Status</string>
+	<string name="goto_settings">Goto Settings</string>
+	<string name="loading">Loading....</string>
+	<string name="latitude">Latitude : </string>
+	<string name="longitude">Longitude : </string>
+	
+</resources>
