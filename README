@@ -7,3 +7,10 @@ Features:
 3. Get Last 30 days Weather History.
 
 Android Version: 3.0 and above
+
+
+MyWeatherReporter1.0
+- application without dependency injection
+
+MyWeatherReporter1.1
+- Added dagger dependency injection
