@@ -1,0 +1,16 @@
+digraph G1 {
+  concentrate = true;
+  AddCityActivity -> Geocoder;
+  AddCityActivity -> LocationManager;
+  n2 [label="ArrayList<com.example.myweatherreporter.beans.CityWeather>"];
+  AddCityActivity -> n2;
+  n3 [label="Provider<com.example.myweatherreporter.beans.CityWeather>"];
+  AddCityActivity -> n3;
+  AddCityActivity -> City;
+  AddCityActivity -> DatabaseHandler;
+  AddCityActivity -> CustomProgressDialog;
+  AddCityActivity -> CustomCityListAdapter;
+  CustomCityListAdapter -> n2;
+  CustomProgressDialog -> Context;
+  DatabaseHandler -> Context;
+}

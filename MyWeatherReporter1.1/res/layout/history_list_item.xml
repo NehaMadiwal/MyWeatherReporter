@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/tvDateHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvDayHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvDateHistory"
+        android:layout_marginTop="1dip"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/thumbnailHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvDateHistory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="32dip"
+        android:background="@drawable/image_bg"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/list_history_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoDataHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="@string/history_not_found"
+        />
+    
+    <TextView
+        android:id="@+id/tvDescHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnailHistory"
+        android:layout_alignLeft="@id/thumbnailHistory"
+        android:layout_marginRight="10dip"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"/>
+
+
+    <TextView
+        android:id="@+id/tvMinTempHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/tvMaxTempHistory"
+        android:layout_alignBottom="@+id/tvMaxTempHistory"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:textColor="#10bcc9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMaxTempHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tvMinTempHistory"
+        android:gravity="right"
+        android:textColor="#10bcc9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

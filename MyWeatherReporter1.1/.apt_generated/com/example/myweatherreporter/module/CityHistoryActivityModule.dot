@@ -1,0 +1,12 @@
+digraph G1 {
+  concentrate = true;
+  n2 [label="ArrayList<com.example.myweatherreporter.beans.CityHistoryOneDay>"];
+  CityWeatherHistoryActivity -> n2;
+  n3 [label="Provider<com.example.myweatherreporter.beans.CityHistoryOneDay>"];
+  CityWeatherHistoryActivity -> n3;
+  n4 [label="Provider<com.example.myweatherreporter.beans.CityWeather>"];
+  CityWeatherHistoryActivity -> n4;
+  CityWeatherHistoryActivity -> City;
+  CityWeatherHistoryActivity -> CustomCityHistoryListAdapter;
+  CustomCityHistoryListAdapter -> n2;
+}

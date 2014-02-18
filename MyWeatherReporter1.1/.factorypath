@@ -1,0 +1,6 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/MyWeatherReporter1.1/libs/dagger-compiler-1.2.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/MyWeatherReporter1.1/libs/dagger-1.2.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/MyWeatherReporter1.1/libs/javax.inject-1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/MyWeatherReporter1.1/libs/javawriter-2.4.0.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>
